@@ -530,6 +530,28 @@ nav ul li a:hover::after {
     color: var(--ink-soft);
 }
 
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1.2rem;
+}
+
+.project-links a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--olive);
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0.2rem;
+    transition: border-color 0.3s ease;
+}
+
+.project-links a:hover {
+    border-color: var(--olive);
+}
+
 .project-tag {
     font-size: 1.15rem;
     font-weight: 500;
